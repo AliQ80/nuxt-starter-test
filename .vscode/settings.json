@@ -1,0 +1,43 @@
+{
+  "[typescript][javascript][json][jsonc][css][html][markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true,
+      "bracketSameLine": true
+    }
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true,
+      "bracketSameLine": true
+    }
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {},
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "json",
+    "jsonc",
+    "typescript",
+    "html",
+    "vue",
+    "markdown"
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "conventionalCommits.scopes": [
+    "firebase",
+    "pinia",
+    "auth",
+    "test",
+    "WIP"
+  ]
+}
